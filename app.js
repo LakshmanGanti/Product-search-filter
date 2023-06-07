@@ -1,4 +1,15 @@
 const search = ()=>{
+    
+    // const input = document.querySelector("#search-item");
+    // const filter = input.value.toUpperCase();
+
+    // const product = document.querySelectorAll(".product");
+
+    // product.forEach((el) => {
+    //     const text = el.textContent.toUpperCase();
+    //     el.style.display = text.includes(filter) ? "":"none";
+    // });
+    
     const searchBox = document.getElementById("search-item").value.toUpperCase();
    
     //Array of all the items in the list
